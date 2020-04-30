@@ -88,14 +88,14 @@ class Countdown extends Component {
         <span className="Countdown-col">
           <span className="Countdown-col-element">
               <strong>{this.addLeadingZeros(countDown.days)}</strong>
-              <span>{countDown.days === 1 ? 'Day' : 'Days'}</span>
+              <span className="Timewrite">Dias</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.hours)}</strong>
-            <span>Hours</span>
+            <span className="Timewrite">Horas</span>
           </span>
         </span>
 
@@ -103,14 +103,14 @@ class Countdown extends Component {
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.min)}</strong>
-            <span>Min</span>
+            <span className="Timewrite">Minutos</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.sec)}</strong>
-            <span>Sec</span>
+            <span className="Timewrite">Segundos</span>
           </span>
         </span>
       </div>
