@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <h1>Missão Rama</h1>
         
-        <h1 className="title">Tempo Restante</h1>
+        <h1 className="title">Tempo Restante 1</h1>
         <Countdown date={`2020-05-02T17:00:00`} />
         <div>
           <Button size="large" variant="contained" color="primary" href="#contained-buttons">
