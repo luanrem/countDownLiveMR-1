@@ -7,7 +7,7 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={Main}/>
+        <Route path="/" component={Main} host="https://contagemrama.herokuapp.com/"/>
       </Switch>
     </BrowserRouter>
   );
