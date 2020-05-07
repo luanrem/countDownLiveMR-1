@@ -16,7 +16,7 @@ class Main extends Component {
         <h1 className="MRLogo">Missão Rama Live</h1>
         <h1 className="Chamada">Venha assistir a Live da Missão Rama.</h1>
         
-        <Countdown date={`2020-05-02T17:00:00`} />
+        <Countdown date={`2020-05-10T17:00:00`} />
         <div>
           <Button size="large" variant="contained" color="primary" href="#contained-buttons">
           ASSISTIR
